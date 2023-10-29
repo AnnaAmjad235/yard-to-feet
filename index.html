@@ -5,24 +5,53 @@
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
-            color: aquamarine;
-            background-color: blueviolet;
-            font-size: 23px;
+           color: #9A4CE9;
+            background-image:   url(class.jpeg);
+            
+            
+     
         }
 
         .container {
             max-width: 400px;
-            margin: 56px;
+           margin: 300px;
+           margin-left: 578px;
             padding: 23px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+            border: 6px solid #ccc;
+            border-radius: 19px;
+            background: rgba( 255, 255, 255, 0.25 );
+            background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+width: 567px;
+height: 345px;
         }
+        input{
+            background-color:#9A4CE9;
+            border-radius: 4px;
+            height: 2rem;
+            border: 0px solid;
+        }
+        
+        
 
         label {
             font-weight: bold;
         }
         h1{
-            color: blue;
+          color: bisque;
+            text-align: center;
+            margin-left: 60px;
+            font-size: 30px;
+            
+        }
+        h2{
+            font-size: 30px;
+          font-family: 'Times New Roman', Times, serif;
         }
     </style>
 </head>
@@ -32,7 +61,7 @@
         <h2>Yards into Square Feet</h2>
         <form id="areaConverterForm">
             <label for="yards">Enter Yards:</label>
-            <input type="number" id="yards" step="any" placeholder="Enter yards" required>
+            <input type="number" id="yards" step="any"  required>
             <br><br>
             <button type="button" onclick="convertArea()">Convert</button>
         </form>
